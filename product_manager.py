@@ -1,4 +1,3 @@
-
 # product_manager.py
 
 from product import Product
@@ -21,3 +20,8 @@ class ProductManager:
         """Calculates and returns the total value of all products in stock."""
         total = sum(product.price * product.quantity for product in self.products)
         return f"Total value of all products: ${total:.2f}"
+
+    def remove_product_by_name(self, name):
+        """Removes a product from the list by its name."""
+        self.products = [product for product in self.products if product.name != name]
+        print(f"Product(s) with name '{name}' have been removed.")
