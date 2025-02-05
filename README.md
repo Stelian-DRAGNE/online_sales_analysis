@@ -26,8 +26,13 @@ Proiectul are implementate urmatoarele clase :
 
 
 Functionalitatile implementate sunt :
+
     Afisare stocuri
+    
     Actualizare stocuri
+    
     Calcul valoric al produselor din stoc
+    
     Eliminare produse din stoc dupa denumirea acestora
+    
     Vizualizare, actualizare si calculare valoare cos de cumparaturi.
