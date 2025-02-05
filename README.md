@@ -8,16 +8,22 @@ Scopul său este să dezvolte un proiect Python funcțional care să folosească
 controlul versiunilor și colaborarea în echipă.
 
 Alex trebuie să implementeze un sistem care să accepte:
+
     1. lucrul cu produse (adăugarea, afișarea, actualizarea și eliminarea);
     
     2. gestionarea coșului clientului (adăugarea produselor, afișarea conținutului și calcularea valorii totale);
     
     3. documentarea proiectului prin fișierul README.md și securitatea datelor prin .gitignore.
 
+
 Proiectul are implementate urmatoarele clase :
+
     Clasa Product
+    
     Clasa ProductManager
+    
     Clasa Cart
+
 
 Functionalitatile implementate sunt :
     Afisare stocuri
